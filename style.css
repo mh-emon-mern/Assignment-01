@@ -20,9 +20,7 @@ body {
   margin: auto;
 }
 
-/* ==========================
-        COMMON BUTTON
-========================== */
+/*  COMMON BUTTON */
 .btn {
   background: #2563eb;
   color: #fff;
@@ -34,7 +32,7 @@ body {
   cursor: pointer;
 }
 
-/*       HEADER */
+/*  HEADER */
 
 header {
   background: #fff;
@@ -101,7 +99,7 @@ nav ul li a {
   color: whitesmoke;
 }
 
-/*         SPEAKERS */
+/* SPEAKERS */
 
 #speakers {
   padding: 100px 0;
@@ -158,11 +156,14 @@ nav ul li a {
 .section-title {
   text-align: center;
   font-size: 48px;
+
   font-weight: 800;
   margin-bottom: 12px;
 }
 
 .section-subtitle {
+  width: 100%;
+  max-width: none;
   text-align: center;
   color: #6b7280;
   margin-bottom: 55px;
@@ -181,7 +182,6 @@ nav ul li a {
   border: 1px solid #e5e7eb;
   border-radius: 18px;
   padding: 30px;
-  transition: 0.3s;
 }
 
 .price-card h5 {
