@@ -47,7 +47,7 @@ ul li a {
 #hero-pic {
   background:
     linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
-    url("./banner.jpg");
+    url("./assets/banner.jpg");
 
   background-size: cover;
   background-position: center;
@@ -78,3 +78,54 @@ ul li a {
 }
 
 /* image end */
+
+
+/* speaker point */
+
+
+#speakers{
+    margin: 80px 0;
+}
+
+#speakers h2{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.speakers-main{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.spekers-child-card{
+    padding: 20px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+}
+
+.spekers-child-card img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.spekers-child-card span{
+    color: #2563eb;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.spekers-child-card h3{
+    margin: 10px 0 5px;
+    font-size: 22px;
+}
+
+.spekers-child-card p{
+    color: #666;
+    font-size: 15px;
+    gap: 20px;
+}
